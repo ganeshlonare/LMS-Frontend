@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+   position: relative;
+   margin: 0;
+   padding: 0;
+}
+
+/* Optional: Uncomment if you want to limit max width on very large screens */
+/* 
+.container-wrapper {
+   max-width: 1440px;
+   margin: 0 auto;
+}
+*/
+
+#root {
+   min-height: 100vh;
+}
