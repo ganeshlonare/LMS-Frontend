@@ -2,13 +2,40 @@
 <html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="description" content="Learning Management System - A modern platform for online education" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="author" content="Your Company Name" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://your-vercel-app-url.vercel.app/" />
+    <meta property="og:title" content="Learning Management System" />
+    <meta property="og:description" content="A modern platform for online education" />
+    <meta property="og:image" content="https://your-vercel-app-url.vercel.app/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://your-vercel-app-url.vercel.app/" />
+    <meta name="twitter:title" content="Learning Management System" />
+    <meta name="twitter:description" content="A modern platform for online education" />
+    <meta name="twitter:image" content="https://your-vercel-app-url.vercel.app/og-image.jpg" />
+
+    <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LMS Frontend</title>
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://checkout.razorpay.com" />
+
+    <title>Learning Management System</title>
   </head>
-  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
   <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <script src="https://checkout.razorpay.com/v1/checkout.js" defer></script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
