@@ -20,7 +20,7 @@
     },
     {
       "src": "/api/(.*)",
-      "dest": "/api/$1"
+      "dest": "https://lms-backend-awyl.onrender.com/api/$1"
     },
     {
       "src": "/(.*)",
